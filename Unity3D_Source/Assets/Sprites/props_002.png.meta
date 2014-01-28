@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: c9ea4716c74b1d5469649f11ae035b1d
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: props_002_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 370
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 375
+        width: 103
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_2
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 266
+        width: 23
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 309
+        width: 135
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 191
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_5
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 236
+        width: 102
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_6
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 19
+        width: 23
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 115
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 55
+        width: 78
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_9
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 58
+        width: 78
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 27
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 13
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: props_002_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 178
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: props_002_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 102
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: props_002_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 103
+        width: 68
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: props_002_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 13
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: props_002_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 181
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
