@@ -23,5 +23,7 @@ build/
 *.sln
 *.csproj
 *.unitproj
+*.userprefs
+
 
 
