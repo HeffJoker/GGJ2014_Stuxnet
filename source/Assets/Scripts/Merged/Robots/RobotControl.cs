@@ -17,7 +17,9 @@ public class RobotControl : UniversalClick {
 	void Start () 
 	{
 		finder = gameObject.GetComponent<SeePlayer>();
-		finder.isAlternateAngle = true;
+
+		if(finder != null)
+			finder.isAlternateAngle = true;
 	}
 	
 	// Update is called once per frame
@@ -25,7 +27,7 @@ public class RobotControl : UniversalClick {
 	{
 		if (isPlayerPossessed)
 		{
-			Camera.main.SendMessage("Follow", transform);
+			Camera.main.SendMessage("follow", transform);
 
 			/*mouseLocation = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			//Debug.Log (mouseLocation);
@@ -72,13 +74,16 @@ public class RobotControl : UniversalClick {
 		{
 			myAngle += 360;
 		}
-		finder.alternateAngle = myAngle;
 
-
-		if (finder.isSee)
+		if(finder != null)
 		{
-			GameObject mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
-			mainCamera.GetComponent<CameraJump>().resetLevel();
+			finder.alternateAngle = myAngle;
+
+			if (finder.isSee)
+			{
+				GameObject mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+				mainCamera.GetComponent<CameraJump>().resetLevel();
+			}
 		}
 	}
 

@@ -83,7 +83,7 @@ public class CameraJump : MonoBehaviour {
 					}
 				}
 
-				Cursor.SetCursor (myMouse, new Vector2(160, 160), CursorMode.Auto);
+				Cursor.SetCursor(myMouse, new Vector2(160, 160), CursorMode.Auto);
 			}
 			else
 			{
@@ -92,7 +92,7 @@ public class CameraJump : MonoBehaviour {
 		}
 		else
 		{
-			Cursor.SetCursor (null, Vector2.zero, CursorMode.Auto);
+			Cursor.SetCursor (null, Vector2.zero, CursorMode.ForceSoftware);
 		}
 
 		//Debug.Log (flyTime - Time.fixedTime);
