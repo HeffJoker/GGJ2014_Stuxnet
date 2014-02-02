@@ -62,6 +62,7 @@ public class CameraJump : MonoBehaviour {
 					followMe = hit.transform;
 
 					//Yes, I know I'm a lazy turd. :)   - Michael
+					//yes...yes you are... -Rene
 					try
 					{
 						hitObject.SendMessage("clickAway");
@@ -113,8 +114,11 @@ public class CameraJump : MonoBehaviour {
 	{
 		if (flyTime - Time.fixedTime < 0)
 		{
-			transform.position = levelBegin;
-			followMe = firstObject;
+			//reset level... trying to fix robot not resetting on Rene level -- Rene
+
+			Application.LoadLevel (Application.loadedLevelName);
+			//transform.position = levelBegin;
+			//followMe = firstObject;
 		}
 	}
 
