@@ -45,7 +45,7 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: props_002_0
+    - name: rocketLauncherBase
       rect:
         serializedVersion: 2
         x: 9
@@ -53,8 +53,8 @@ TextureImporter:
         width: 132
         height: 133
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_1
+      pivot: {x: .5, y: .5}
+    - name: woodDoorHorizontal
       rect:
         serializedVersion: 2
         x: 366
@@ -62,8 +62,8 @@ TextureImporter:
         width: 103
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_2
+      pivot: {x: .5, y: .5}
+    - name: woodDoorVertical
       rect:
         serializedVersion: 2
         x: 476
@@ -71,8 +71,8 @@ TextureImporter:
         width: 23
         height: 235
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_3
+      pivot: {x: .5, y: .5}
+    - name: rocket
       rect:
         serializedVersion: 2
         x: 3
@@ -80,8 +80,8 @@ TextureImporter:
         width: 135
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_4
+      pivot: {x: .5, y: .5}
+    - name: smallBlueBeaker
       rect:
         serializedVersion: 2
         x: 63
@@ -89,8 +89,8 @@ TextureImporter:
         width: 39
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_5
+      pivot: {x: .5, y: .5}
+    - name: metalDoorHorizontal
       rect:
         serializedVersion: 2
         x: 367
@@ -98,8 +98,8 @@ TextureImporter:
         width: 102
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_6
+      pivot: {x: .5, y: .5}
+    - name: metalDoorVertical
       rect:
         serializedVersion: 2
         x: 476
@@ -107,8 +107,8 @@ TextureImporter:
         width: 23
         height: 235
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_7
+      pivot: {x: .5, y: .5}
+    - name: smallGreenBeaker
       rect:
         serializedVersion: 2
         x: 69
@@ -116,8 +116,8 @@ TextureImporter:
         width: 38
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_8
+      pivot: {x: .5, y: .5}
+    - name: switchON
       rect:
         serializedVersion: 2
         x: 286
@@ -125,8 +125,8 @@ TextureImporter:
         width: 78
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_9
+      pivot: {x: .5, y: .5}
+    - name: switchOFF
       rect:
         serializedVersion: 2
         x: 380
@@ -134,8 +134,8 @@ TextureImporter:
         width: 78
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_10
+      pivot: {x: .5, y: .5}
+    - name: smallRedBeaker
       rect:
         serializedVersion: 2
         x: 70
@@ -143,8 +143,8 @@ TextureImporter:
         width: 38
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: props_002_11
+      pivot: {x: .5, y: .5}
+    - name: bigRedBeaker2
       rect:
         serializedVersion: 2
         x: 112
@@ -152,6 +152,51 @@ TextureImporter:
         width: 69
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+    - name: bigBlueBeaker
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: bigBlueBeaker2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 180
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: bigGreenBeaker2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 103
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: bigGreenBeaker
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 97
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: bigRedBeaker
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 69
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 
