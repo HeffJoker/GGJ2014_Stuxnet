@@ -1,0 +1,51 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class AudioClip : MonoBehaviour 
+{
+	public int LoopInterval = 100;
+	public int LoopCounter	= 0;
+	public bool Loop 		= false;
+	public bool AutoPlay 	= false;
+	private bool playSound 	= false;
+
+	// Use this for initialization
+	void Start () 
+	{
+		if (AutoPlay) 
+		{
+			playSound = true;
+		}
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+		//Plays the attached AudioSource component
+		if(Loop)
+		{
+			LoopCounter++;
+			 
+			if(LoopCounter >= LoopInterval)
+			{
+				playSound = true;
+				LoopCounter = 0;
+			}
+		}
+		
+		//Play the attached asset
+		if(playSound)
+			PlayAttachedSoundAsset();
+	}
+	
+	public void PlayAttachedSoundAsset()
+	{
+		audio.Play();
+		playSound = false;
+	}
+	
+	public void StopSound()
+	{
+		audio.Stop();
+	}
+}
